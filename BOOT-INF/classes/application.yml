@@ -1,0 +1,26 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: reggie_take_out
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url:
+      username:
+      password:
+mybatis-plus:
+  configuration:
+    #???????????????????????????????????????
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  global-config:
+    db-config:
+      id-type: ASSIGN_ID
+
+reggie:
+  path: D:\img11\
+
+
+
+
